@@ -9,6 +9,13 @@ Original file is located at
 
 import streamlit as st
 
+# Set Streamlit page configuration to wide mode
+st.set_page_config(
+    page_title="Power BI Dashboard",
+    layout="wide",  # Use wide mode
+    initial_sidebar_state="expanded"  # Optional: Open the sidebar by default
+)
+
 # Title for the app
 st.title("Criminal & Non-Criminal Reports")
 
