@@ -18,7 +18,7 @@ power_bi_url = "https://app.powerbi.com/reportEmbed?reportId=d1b1b121-8ea3-45d9-
 # Render the Power BI dashboard using an iframe
 st.markdown(
     f"""
-    <iframe title="Crime Reporting - BI" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=d1b1b121-8ea3-45d9-876f-99d4287416b4&autoAuth=true&ctid=84a28940-b464-41c3-ba3b-b4fa6665bc05" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="Crime Reporting - BI" width="1000" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=d1b1b121-8ea3-45d9-876f-99d4287416b4&autoAuth=true&ctid=84a28940-b464-41c3-ba3b-b4fa6665bc05" frameborder="0" allowFullScreen="true"></iframe>
     """,
     unsafe_allow_html=True,
 )
